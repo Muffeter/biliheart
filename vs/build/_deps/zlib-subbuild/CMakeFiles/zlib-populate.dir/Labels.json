@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/ee8ea1b9f0a6d3868f34b8f5c726c349/zlib-populate.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/8e7d3231017369769193f0cee50ec6fb/zlib-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"zlib-populate"
+		],
+		"name" : "zlib-populate"
+	}
+}

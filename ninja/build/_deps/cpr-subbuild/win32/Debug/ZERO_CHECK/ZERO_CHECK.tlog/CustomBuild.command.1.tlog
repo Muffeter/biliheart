@@ -1,0 +1,10 @@
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\NINJA\BUILD\_DEPS\CPR-SUBBUILD\CMAKEFILES\685776F0D5E48B908B519B81FD92A9AC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/cpr-subbuild -BC:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/cpr-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/cpr-subbuild/cpr-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

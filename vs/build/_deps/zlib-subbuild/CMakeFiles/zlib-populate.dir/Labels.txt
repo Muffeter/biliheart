@@ -1,0 +1,14 @@
+# Target labels
+ zlib-populate
+# Source files and their labels
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/ee8ea1b9f0a6d3868f34b8f5c726c349/zlib-populate.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/8e7d3231017369769193f0cee50ec6fb/zlib-populate-complete.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-build.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-configure.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-download.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-install.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-mkdir.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-patch.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-test.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-subbuild/CMakeFiles/dd6175dbe207d8305d649fc378dba345/zlib-populate-update.rule

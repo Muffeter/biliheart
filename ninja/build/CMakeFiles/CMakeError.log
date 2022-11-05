@@ -1,0 +1,2148 @@
+Performing C++ SOURCE FILE Test LEAK_SANITIZER_AVAILABLE failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c62fc.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.cxx
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D LEAK_SANITIZER_AVAILABLE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c62fc.dir\Debug\\" /Fd"cmTC_c62fc.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue  -fsanitize=leak C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.cxx
+cl : 命令行  warning D9002: 忽略未知选项“-fsanitize=leak” [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_c62fc.vcxproj]
+  cmTC_c62fc.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\Debug\cmTC_c62fc.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test UNDEFINED_BEHAVIOUR_SANITIZER_AVAILABLE failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ffd82.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.cxx
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UNDEFINED_BEHAVIOUR_SANITIZER_AVAILABLE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ffd82.dir\Debug\\" /Fd"cmTC_ffd82.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue  -fsanitize=undefined C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.cxx
+cl : 命令行  warning D9002: 忽略未知选项“-fsanitize=undefined” [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_ffd82.vcxproj]
+  cmTC_ffd82.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\Debug\cmTC_ffd82.exe
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/sdt.h exists failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_569ea.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckIncludeFile.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal  error C1083: 无法打开包括文件: “sys/sdt.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_569ea.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_569ea.dir\Debug\\" /Fd"cmTC_569ea.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fe551.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe551.dir\Debug\\" /Fd"cmTC_fe551.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal  error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_fe551.vcxproj]
+
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_80920.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  OFF64_T.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\OFF64_T.c(29,12): error C2065: “off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_80920.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\OFF64_T.c(30,12): error C2065: “off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_80920.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\OFF64_T.c(31,12): error C2065: “off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_80920.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\OFF64_T.c(32,12): error C2065: “off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_80920.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\OFF64_T.c(33,12): error C2065: “off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_80920.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80920.dir\Debug\\" /Fd"cmTC_80920.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\OFF64_T.c
+
+
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of _off64_t failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_96bff.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  _OFF64_T.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\_OFF64_T.c(29,12): error C2065: “_off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_96bff.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\_OFF64_T.c(30,12): error C2065: “_off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_96bff.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\_OFF64_T.c(31,12): error C2065: “_off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_96bff.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\_OFF64_T.c(32,12): error C2065: “_off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_96bff.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\_OFF64_T.c(33,12): error C2065: “_off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_96bff.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96bff.dir\Debug\\" /Fd"cmTC_96bff.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\_OFF64_T.c
+
+
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CheckTypeSize/_OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(_off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __off64_t failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c8629.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  __OFF64_T.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\__OFF64_T.c(29,12): error C2065: “__off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_c8629.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\__OFF64_T.c(30,12): error C2065: “__off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_c8629.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\__OFF64_T.c(31,12): error C2065: “__off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_c8629.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\__OFF64_T.c(32,12): error C2065: “__off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_c8629.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\__OFF64_T.c(33,12): error C2065: “__off64_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_c8629.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c8629.dir\Debug\\" /Fd"cmTC_c8629.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\__OFF64_T.c
+
+
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CheckTypeSize/__OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_301c0.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckFunctionExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_301c0.dir\Debug\\" /Fd"cmTC_301c0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _fseeko，函数 _main 中引用了该符号 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_301c0.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\Debug\cmTC_301c0.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_301c0.vcxproj]
+
+
+
+Determining if the function posix_memalign exists failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3293b.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckFunctionExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=posix_memalign /D _POSIX_C_SOURCE=200112L /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3293b.dir\Debug\\" /Fd"cmTC_3293b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _posix_memalign，函数 _main 中引用了该符号 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_3293b.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\Debug\cmTC_3293b.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_3293b.vcxproj]
+
+
+
+Performing C SOURCE FILE Test HAVE_NO_INTERPOSITION failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cdc8d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_NO_INTERPOSITION /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cdc8d.dir\Debug\\" /Fd"cmTC_cdc8d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue  -fno-semantic-interposition C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c
+cl : 命令行  warning D9002: 忽略未知选项“-fno-semantic-interposition” [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_cdc8d.vcxproj]
+  cmTC_cdc8d.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\Debug\cmTC_cdc8d.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_04d73.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(2,9): error C2143: 语法错误: 缺少“)”(在“(”的前面) [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_04d73.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(2,9): error C2091: 函数返回函数 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_04d73.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(2,9): error C2143: 语法错误: 缺少“)”(在“字符串”的前面) [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_04d73.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(2,9): error C2143: 语法错误: 缺少“{”(在“字符串”的前面) [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_04d73.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(2,9): error C2059: 语法错误:“字符串” [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_04d73.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(2,9): error C2059: 语法错误:“)” [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_04d73.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_ATTRIBUTE_VISIBILITY_HIDDEN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04d73.dir\Debug\\" /Fd"cmTC_04d73.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("hidden")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_60cce.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(2,9): error C2143: 语法错误: 缺少“)”(在“(”的前面) [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_60cce.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(2,9): error C2091: 函数返回函数 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_60cce.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(2,9): error C2143: 语法错误: 缺少“)”(在“字符串”的前面) [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_60cce.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(2,9): error C2143: 语法错误: 缺少“{”(在“字符串”的前面) [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_60cce.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(2,9): error C2059: 语法错误:“字符串” [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_60cce.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(2,9): error C2059: 语法错误:“)” [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_60cce.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_ATTRIBUTE_VISIBILITY_INTERNAL /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_60cce.dir\Debug\\" /Fd"cmTC_60cce.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("internal")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZ failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_778a7.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(3,21): warning C4013: “__builtin_ctz”未定义；假设外部返回 int [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_778a7.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_CTZ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_778a7.dir\Debug\\" /Fd"cmTC_778a7.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c
+src.obj : error LNK2019: 无法解析的外部符号 ___builtin_ctz，函数 _main 中引用了该符号 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_778a7.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\Debug\cmTC_778a7.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_778a7.vcxproj]
+
+
+Source file was:
+int main(void) {
+        unsigned int zero = 0;
+        long test = __builtin_ctz(zero);
+        (void)test;
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZLL failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_64726.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(3,21): warning C4013: “__builtin_ctzll”未定义；假设外部返回 int [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_64726.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_CTZLL /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64726.dir\Debug\\" /Fd"cmTC_64726.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c
+src.obj : error LNK2019: 无法解析的外部符号 ___builtin_ctzll，函数 _main 中引用了该符号 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_64726.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\Debug\cmTC_64726.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_64726.vcxproj]
+
+
+Source file was:
+int main(void) {
+        unsigned int zero = 0;
+        long test = __builtin_ctzll(zero);
+        (void)test;
+        return 0;
+    }
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2b09f.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b09f.dir\Debug\\" /Fd"cmTC_2b09f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal  error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_2b09f.vcxproj]
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/filio.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6a250.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  HAVE_SYS_FILIO_H.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a250.dir\Debug\\" /Fd"cmTC_6a250.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c(7,10): fatal  error C1083: 无法打开包括文件: “sys/filio.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_6a250.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/filio.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/ioctl.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_af44e.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  HAVE_SYS_IOCTL_H.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af44e.dir\Debug\\" /Fd"cmTC_af44e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c(7,10): fatal  error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_af44e.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/resource.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d4c8c.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  HAVE_SYS_RESOURCE_H.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d4c8c.dir\Debug\\" /Fd"cmTC_d4c8c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c(7,10): fatal  error C1083: 无法打开包括文件: “sys/resource.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_d4c8c.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/resource.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/uio.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_acd66.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_SYS_UIO_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_acd66.dir\Debug\\" /Fd"cmTC_acd66.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c(9,10): fatal  error C1083: 无法打开包括文件: “sys/uio.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_acd66.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/un.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_13d19.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_SYS_UN_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13d19.dir\Debug\\" /Fd"cmTC_13d19.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c(9,10): fatal  error C1083: 无法打开包括文件: “sys/un.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_13d19.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/un.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;sys/xattr.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9e6fb.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  HAVE_SYS_XATTR_H.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e6fb.dir\Debug\\" /Fd"cmTC_9e6fb.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c(10,10): fatal  error C1083: 无法打开包括文件: “sys/xattr.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_9e6fb.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <sys/xattr.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;arpa/tftp.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_80c60.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_ARPA_TFTP_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80c60.dir\Debug\\" /Fd"cmTC_80c60.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c(10,10): fatal  error C1083: 无法打开包括文件: “arpa/tftp.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_80c60.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <arpa/tftp.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;idn2.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_04dc7.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  HAVE_IDN2_H.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04dc7.dir\Debug\\" /Fd"cmTC_04dc7.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c(13,10): fatal  error C1083: 无法打开包括文件: “idn2.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_04dc7.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;ifaddrs.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2b199.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_IFADDRS_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b199.dir\Debug\\" /Fd"cmTC_2b199.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c(13,10): fatal  error C1083: 无法打开包括文件: “ifaddrs.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_2b199.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;krb.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0556e.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  HAVE_KRB_H.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0556e.dir\Debug\\" /Fd"cmTC_0556e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c(14,10): fatal  error C1083: 无法打开包括文件: “krb.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_0556e.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <krb.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0b8fd.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_LIBGEN_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b8fd.dir\Debug\\" /Fd"cmTC_0b8fd.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c(14,10): fatal  error C1083: 无法打开包括文件: “libgen.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_0b8fd.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;netinet/tcp.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8f0ba.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_NETINET_TCP_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f0ba.dir\Debug\\" /Fd"cmTC_8f0ba.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c(15,10): fatal  error C1083: 无法打开包括文件: “netinet/tcp.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_8f0ba.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <netinet/tcp.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file linux/tcp.h exists failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3d510.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckIncludeFile.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal  error C1083: 无法打开包括文件: “linux/tcp.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_3d510.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d510.dir\Debug\\" /Fd"cmTC_3d510.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;pem.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_67a57.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_PEM_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67a57.dir\Debug\\" /Fd"cmTC_67a57.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c(15,10): fatal  error C1083: 无法打开包括文件: “pem.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_67a57.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <pem.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;poll.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d2a54.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_POLL_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d2a54.dir\Debug\\" /Fd"cmTC_d2a54.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c(15,10): fatal  error C1083: 无法打开包括文件: “poll.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_d2a54.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <poll.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;ssl.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dacf5.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_SSL_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dacf5.dir\Debug\\" /Fd"cmTC_dacf5.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c(17,10): fatal  error C1083: 无法打开包括文件: “ssl.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_dacf5.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <ssl.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;stropts.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_96672.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_STROPTS_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96672.dir\Debug\\" /Fd"cmTC_96672.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c(21,10): fatal  error C1083: 无法打开包括文件: “stropts.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_96672.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stropts.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;time.h;process.h;stddef.h;malloc.h;memory.h;sys/utsname.h exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_905ae.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_SYS_UTSNAME_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_905ae.dir\Debug\\" /Fd"cmTC_905ae.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c(26,10): fatal  error C1083: 无法打开包括文件: “sys/utsname.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_905ae.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+#include <sys/utsname.h>
+
+
+int main(void){return 0;}
+
+Determining size of ssize_t failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_40fd6.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  SIZEOF_SSIZE_T.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(28,12): error C2065: “ssize_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_40fd6.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(29,12): error C2065: “ssize_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_40fd6.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(30,12): error C2065: “ssize_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_40fd6.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(31,12): error C2065: “ssize_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_40fd6.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(32,12): error C2065: “ssize_t”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_40fd6.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40fd6.dir\Debug\\" /Fd"cmTC_40fd6.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c
+
+
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:
+#include <sys/types.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the basename exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_968bb.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_968bb.dir\Debug\\" /Fd"cmTC_968bb.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,27): error C2065: “basename”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_968bb.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef basename
+  return ((int*)(&basename))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncmpi exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_80638.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80638.dir\Debug\\" /Fd"cmTC_80638.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,27): error C2065: “strncmpi”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_80638.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the alarm exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_95092.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_95092.dir\Debug\\" /Fd"cmTC_95092.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,24): error C2065: “alarm”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_95092.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alarm
+  return ((int*)(&alarm))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getppid exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ee15b.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee15b.dir\Debug\\" /Fd"cmTC_ee15b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,26): error C2065: “getppid”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_ee15b.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getppid
+  return ((int*)(&getppid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the utimes exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9dec6.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9dec6.dir\Debug\\" /Fd"cmTC_9dec6.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,25): error C2065: “utimes”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_9dec6.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef utimes
+  return ((int*)(&utimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpwuid_r exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1ef2f.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ef2f.dir\Debug\\" /Fd"cmTC_1ef2f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,29): error C2065: “getpwuid_r”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_1ef2f.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpwuid_r
+  return ((int*)(&getpwuid_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the usleep exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3bb0c.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3bb0c.dir\Debug\\" /Fd"cmTC_3bb0c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,25): error C2065: “usleep”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_3bb0c.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef usleep
+  return ((int*)(&usleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e8815.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8815.dir\Debug\\" /Fd"cmTC_e8815.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,29): error C2065: “strerror_r”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_e8815.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the siginterrupt exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c28da.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c28da.dir\Debug\\" /Fd"cmTC_c28da.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,31): error C2065: “siginterrupt”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_c28da.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef siginterrupt
+  return ((int*)(&siginterrupt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pipe exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_310e3.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_310e3.dir\Debug\\" /Fd"cmTC_310e3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,23): error C2065: “pipe”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_310e3.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pipe
+  return ((int*)(&pipe))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ftruncate exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1564b.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1564b.dir\Debug\\" /Fd"cmTC_1564b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,28): error C2065: “ftruncate”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_1564b.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ftruncate
+  return ((int*)(&ftruncate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the if_nametoindex exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_00b17.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_00b17.dir\Debug\\" /Fd"cmTC_00b17.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,33): error C2065: “if_nametoindex”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_00b17.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef if_nametoindex
+  return ((int*)(&if_nametoindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bd93d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd93d.dir\Debug\\" /Fd"cmTC_bd93d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,28): error C2065: “getrlimit”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_bd93d.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_95c53.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_95c53.dir\Debug\\" /Fd"cmTC_95c53.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,28): error C2065: “setrlimit”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_95c53.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fcntl exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2370f.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2370f.dir\Debug\\" /Fd"cmTC_2370f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,24): error C2065: “fcntl”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_2370f.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ioctl exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9e369.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e369.dir\Debug\\" /Fd"cmTC_9e369.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,24): error C2065: “ioctl”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_9e369.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctl
+  return ((int*)(&ioctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function mach_absolute_time exists failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7a572.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckFunctionExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mach_absolute_time /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a572.dir\Debug\\" /Fd"cmTC_7a572.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _mach_absolute_time，函数 _main 中引用了该符号 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_7a572.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\Debug\cmTC_7a572.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_7a572.vcxproj]
+
+
+
+Determining if the fsetxattr exist failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_38c7f.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_38c7f.dir\Debug\\" /Fd"cmTC_38c7f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,28): error C2065: “fsetxattr”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_38c7f.vcxproj]
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsetxattr
+  return ((int*)(&fsetxattr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of sa_family_t failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9f031.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  SIZEOF_SA_FAMILY_T.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\SIZEOF_SA_FAMILY_T.c(3,10): fatal  error C1083: 无法打开包括文件: “sys/socket.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_9f031.vcxproj]
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9f031.dir\Debug\\" /Fd"cmTC_9f031.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\SIZEOF_SA_FAMILY_T.c
+
+
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CheckTypeSize/SIZEOF_SA_FAMILY_T.c:
+#include <sys/types.h>
+#include <stddef.h>
+#include "sys/socket.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(sa_family_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of ADDRESS_FAMILY failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_68bf6.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  SIZEOF_ADDRESS_FAMILY.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_68bf6.dir\Debug\\" /Fd"cmTC_68bf6.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CheckTypeSize\SIZEOF_ADDRESS_FAMILY.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(47,1): fatal  error C1189: #error:  Do not include winsock.h and ws2def.h in the same module. Instead include only winsock2.h. [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_68bf6.vcxproj]
+
+
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CheckTypeSize/SIZEOF_ADDRESS_FAMILY.c:
+#include <sys/types.h>
+#include <stddef.h>
+#include "ws2def.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ADDRESS_FAMILY))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing Curl Test HAVE_FCNTL_O_NONBLOCK failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8b3c4.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CurlTests.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_FCNTL_O_NONBLOCK /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8b3c4.dir\Debug\\" /Fd"cmTC_8b3c4.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c"
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(44,10): fatal  error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_8b3c4.vcxproj]
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e46ff.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CurlTests.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e46ff.dir\Debug\\" /Fd"cmTC_e46ff.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c"
+CurlTests.obj : error LNK2019: 无法解析的外部符号 _IoctlSocket，函数 _main 中引用了该符号 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_e46ff.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\Debug\cmTC_e46ff.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_e46ff.vcxproj]
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9794e.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CurlTests.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9794e.dir\Debug\\" /Fd"cmTC_9794e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c"
+CurlTests.obj : error LNK2019: 无法解析的外部符号 _IoctlSocket，函数 _main 中引用了该符号 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_9794e.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\Debug\cmTC_9794e.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_9794e.vcxproj]
+
+
+Performing Curl Test HAVE_IOCTL_FIONBIO failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_52c9d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CurlTests.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(343,33): error C2065: “FIONBIO”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_52c9d.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IOCTL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52c9d.dir\Debug\\" /Fd"cmTC_52c9d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c"
+
+
+Performing Curl Test HAVE_IOCTL_SIOCGIFADDR failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d2887.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CurlTests.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(368,10): fatal  error C1083: 无法打开包括文件: “net/if.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_d2887.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IOCTL_SIOCGIFADDR /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d2887.dir\Debug\\" /Fd"cmTC_d2887.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c"
+
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d623d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CurlTests.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SETSOCKOPT_SO_NONBLOCK /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d623d.dir\Debug\\" /Fd"cmTC_d623d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c"
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(404,54): error C2065: “SO_NONBLOCK”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_d623d.vcxproj]
+
+
+Performing Curl Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_06454.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06454.dir\Debug\\" /Fd"cmTC_06454.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c"
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_06454.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\Debug\cmTC_06454.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_06454.vcxproj]
+
+
+Performing Curl Test HAVE_FILE_OFFSET_BITS failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_90c2c.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CurlTests.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(218,23): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_90c2c.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(219,27): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_90c2c.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(220,31): error C2118: 负下标 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_90c2c.vcxproj]
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_FILE_OFFSET_BITS /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90c2c.dir\Debug\\" /Fd"cmTC_90c2c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c"
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_GCC failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9680c.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CurlTests.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(495,1): error C2010: “.”: 宏参数表中的意外 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_9680c.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(496,1): error C2010: “.”: 宏参数表中的意外 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_9680c.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_VARIADIC_MACROS_GCC /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9680c.dir\Debug\\" /Fd"cmTC_9680c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c"
+
+
+Performing Curl Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7f155.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CurlTests.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_GLIBC_STRERROR_R /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f155.dir\Debug\\" /Fd"cmTC_7f155.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c"
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(420,53): error C2109: 下标要求数组或指针类型 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_7f155.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(420,3): error C2198: “check”: 用于调用的参数太少 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_7f155.vcxproj]
+
+
+Performing Curl Test HAVE_POSIX_STRERROR_R failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4dc75.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CurlTests.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_POSIX_STRERROR_R /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4dc75.dir\Debug\\" /Fd"cmTC_4dc75.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c"
+CurlTests.obj : error LNK2019: 无法解析的外部符号 _strerror_r，函数 _main 中引用了该符号 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_4dc75.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\Debug\cmTC_4dc75.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_4dc75.vcxproj]
+
+
+Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_eab14.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CurlTests.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_CLOCK_GETTIME_MONOTONIC /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eab14.dir\Debug\\" /Fd"cmTC_eab14.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c"
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(460,32): error C2065: “CLOCK_MONOTONIC”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_eab14.vcxproj]
+
+
+Performing Curl Test HAVE_BUILTIN_AVAILABLE failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2574a.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CurlTests.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(467,32): error C2065: “macOS”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_2574a.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(467,32): error C2143: 语法错误: 缺少“)”(在“常数”的前面) [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_2574a.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(467,40): error C2059: 语法错误:“)” [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_2574a.vcxproj]
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c(467,41): error C2059: 语法错误:“)” [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_2574a.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_AVAILABLE /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2574a.dir\Debug\\" /Fd"cmTC_2574a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\CMake\CurlTests.c"
+
+
+Performing C SOURCE FILE Test HAVE_MSG_NOSIGNAL failed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b4414.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /I"C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D HAVE_MSG_NOSIGNAL /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4414.dir\Debug\\" /Fd"C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\Debug\cmTC_b4414.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(8,28): error C2065: “MSG_NOSIGNAL”: 未声明的标识符 [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_b4414.vcxproj]
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+  int main(void) {
+    int flag = MSG_NOSIGNAL;
+    (void)flag;
+    return 0;
+  }
+Performing C SOURCE FILE Test HAVE_POLL_FINE failed with the following compile output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/ninja/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6573d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c(3,14): fatal  error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\cmTC_6573d.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /I"C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-src\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D HAVE_POLL_FINE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6573d.dir\Debug\\" /Fd"cmTC_6573d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\ninja\build\CMakeFiles\CMakeTmp\src.c
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+    #include <stdlib.h>
+    #include <sys/time.h>
+
+    #ifdef HAVE_SYS_POLL_H
+    #  include <sys/poll.h>
+    #elif  HAVE_POLL_H
+    #  include <poll.h>
+    #endif
+
+    int main(void)
+    {
+        if(0 != poll(0, 0, 10)) {
+          return 1; /* fail */
+        }
+        else {
+          /* detect the 10.12 poll() breakage */
+          struct timeval before, after;
+          int rc;
+          size_t us;
+
+          gettimeofday(&before, NULL);
+          rc = poll(NULL, 0, 500);
+          gettimeofday(&after, NULL);
+
+          us = (after.tv_sec - before.tv_sec) * 1000000 +
+            (after.tv_usec - before.tv_usec);
+
+          if(us < 400000) {
+            return 1;
+          }
+        }
+        return 0;
+    }

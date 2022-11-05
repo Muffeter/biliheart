@@ -1,0 +1,10 @@
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\8920F43462DC5B9164496DD568467908\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive/vs/_deps/zlib-subbuild -BC:/Users/ALIENWARE/Desktop/bilive/vs/_deps/zlib-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/zlib-subbuild/zlib-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

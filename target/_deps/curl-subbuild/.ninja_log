@@ -1,0 +1,21 @@
+# ninja log v5
+1	39	6888401707465125	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	4217e73f836e2a21
+33721	33767	6888402044749949	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	3d88c9d4e84dda0d
+1	39	6888401707465125	C:/Users/ALIENWARE/Desktop/bilive/target/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	4217e73f836e2a21
+39	33720	6888402044284552	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	a2a3b7cd2e444db2
+33857	33892	6888402046005552	C:/Users/ALIENWARE/Desktop/bilive/target/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	2b17751b0f8e77a4
+39	33720	6888402044284552	C:/Users/ALIENWARE/Desktop/bilive/target/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	a2a3b7cd2e444db2
+33721	33767	6888402044749949	C:/Users/ALIENWARE/Desktop/bilive/target/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	3d88c9d4e84dda0d
+33767	33816	6888402045228722	C:/Users/ALIENWARE/Desktop/bilive/target/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	571b346647d4ede
+33767	33816	6888402045228722	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	571b346647d4ede
+33933	33992	6888402046984379	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	7d1805f3b9dbc40
+33816	33857	6888402045658639	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	ce2d909cb98d66b9
+33992	34058	6888402047664255	C:/Users/ALIENWARE/Desktop/bilive/target/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	7e337591929c8376
+33816	33857	6888402045658639	C:/Users/ALIENWARE/Desktop/bilive/target/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	ce2d909cb98d66b9
+33857	33892	6888402046005552	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	2b17751b0f8e77a4
+33892	33933	6888402046401242	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	38db35d2d29230fe
+33892	33933	6888402046401242	C:/Users/ALIENWARE/Desktop/bilive/target/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	38db35d2d29230fe
+33933	33992	6888402046984379	C:/Users/ALIENWARE/Desktop/bilive/target/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	7d1805f3b9dbc40
+33992	34058	6888402047664255	CMakeFiles/curl-populate-complete	7e337591929c8376
+33992	34058	6888402047664255	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	7e337591929c8376
+33992	34058	6888402047664255	C:/Users/ALIENWARE/Desktop/bilive/target/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	7e337591929c8376

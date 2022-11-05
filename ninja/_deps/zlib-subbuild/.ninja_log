@@ -1,0 +1,21 @@
+# ninja log v5
+1	33	6887967279224139	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir	2927179c0d78e166
+1	33	6887967279224139	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir	2927179c0d78e166
+34	7444	6887967353329222	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download	c7783b50a4a1208b
+34	7444	6887967353329222	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download	c7783b50a4a1208b
+7444	7519	0	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update	3821232dd1732d3
+7444	7519	0	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update	3821232dd1732d3
+7520	7550	6887967354387400	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch	8be377209844ba1d
+7520	7550	6887967354387400	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch	8be377209844ba1d
+7550	7579	6887967354677298	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure	4489a7fc669a94ab
+7550	7579	6887967354677298	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure	4489a7fc669a94ab
+7579	7609	6887967354978823	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build	7d0fd3a0d1f76f5a
+7579	7609	6887967354978823	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build	7d0fd3a0d1f76f5a
+7609	7638	6887967355278893	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install	4bd570d73bf5856b
+7609	7638	6887967355278893	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install	4bd570d73bf5856b
+7639	7668	6887967355569679	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test	f39af76453e29ad6
+7639	7668	6887967355569679	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test	f39af76453e29ad6
+7668	7709	6887967355975160	CMakeFiles/zlib-populate-complete	1078f5ee2109370f
+7668	7709	6887967355975160	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-done	1078f5ee2109370f
+7668	7709	6887967355975160	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate-complete	1078f5ee2109370f
+7668	7709	6887967355975160	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-done	1078f5ee2109370f

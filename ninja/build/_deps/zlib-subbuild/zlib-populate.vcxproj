@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7501F7BC-B310-366E-B5AF-7E4C5A360BB7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>zlib-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\ae9e6a084ad7008dc50424159d4e1e08\zlib-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Creating directories for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/$(Configuration) -P C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Creating directories for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/$(Configuration) -P C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Creating directories for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/$(Configuration) -P C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Creating directories for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/$(Configuration) -P C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\ae9e6a084ad7008dc50424159d4e1e08\zlib-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Performing download step (git clone) for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\zlib-populate-gitinfo.txt;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Performing download step (git clone) for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\zlib-populate-gitinfo.txt;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Performing download step (git clone) for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\zlib-populate-gitinfo.txt;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Performing download step (git clone) for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\zlib-populate-gitinfo.txt;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\ae9e6a084ad7008dc50424159d4e1e08\zlib-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Performing update step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Performing update step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Performing update step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Performing update step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\ae9e6a084ad7008dc50424159d4e1e08\zlib-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No patch step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No patch step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No patch step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No patch step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\ae9e6a084ad7008dc50424159d4e1e08\zlib-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No configure step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\tmp\zlib-populate-cfgcmd.txt;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No configure step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\tmp\zlib-populate-cfgcmd.txt;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No configure step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\tmp\zlib-populate-cfgcmd.txt;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No configure step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\tmp\zlib-populate-cfgcmd.txt;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\ae9e6a084ad7008dc50424159d4e1e08\zlib-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No build step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No build step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No build step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No build step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\ae9e6a084ad7008dc50424159d4e1e08\zlib-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No install step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No install step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No install step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No install step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\ae9e6a084ad7008dc50424159d4e1e08\zlib-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No test step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No test step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No test step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No test step for 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\08b023de6754fcb329854a78a5ce7ff7\zlib-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Completed 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/$(Configuration)/zlib-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-install;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-mkdir;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-download;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-update;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-patch;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-configure;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-build;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\$(Configuration)\zlib-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Completed 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/$(Configuration)/zlib-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-install;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-mkdir;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-download;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-update;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-patch;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-configure;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-build;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\$(Configuration)\zlib-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Completed 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/$(Configuration)/zlib-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-install;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-mkdir;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-download;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-update;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-patch;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-configure;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-build;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\$(Configuration)\zlib-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Completed 'zlib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/$(Configuration)/zlib-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/$(Configuration)/zlib-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-install;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-mkdir;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-download;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-update;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-patch;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-configure;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-build;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\src\zlib-populate-stamp\$(Configuration)\zlib-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\$(Configuration)\zlib-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\0469a75b50080a86759412d7dda19e2d\zlib-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\$(Configuration)\zlib-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\zlib-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\$(Configuration)\zlib-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\zlib-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\$(Configuration)\zlib-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\zlib-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\$(Configuration)\zlib-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\zlib-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild -BC:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild --check-stamp-file C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\3.23.4\CMakeSystem.cmake;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\tmp\zlib-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild -BC:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild --check-stamp-file C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\3.23.4\CMakeSystem.cmake;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\tmp\zlib-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild -BC:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild --check-stamp-file C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\3.23.4\CMakeSystem.cmake;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\tmp\zlib-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild -BC:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild --check-stamp-file C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\3.23.4\CMakeSystem.cmake;C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\zlib-populate-prefix\tmp\zlib-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\CMakeFiles\zlib-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\zlib-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{B247D406-9418-3A2E-BA88-8D0B50E88056}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

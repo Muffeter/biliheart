@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\cpr-subbuild\CMakeFiles\4d654d091d71917e1f6db285cc1af63f\cpr-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\cpr-subbuild\CMakeFiles\4d654d091d71917e1f6db285cc1af63f\cpr-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\cpr-subbuild\CMakeFiles\4d654d091d71917e1f6db285cc1af63f\cpr-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\cpr-subbuild\CMakeFiles\4d654d091d71917e1f6db285cc1af63f\cpr-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\cpr-subbuild\CMakeFiles\4d654d091d71917e1f6db285cc1af63f\cpr-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\cpr-subbuild\CMakeFiles\4d654d091d71917e1f6db285cc1af63f\cpr-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\cpr-subbuild\CMakeFiles\4d654d091d71917e1f6db285cc1af63f\cpr-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\cpr-subbuild\CMakeFiles\4d654d091d71917e1f6db285cc1af63f\cpr-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\cpr-subbuild\CMakeFiles\122715c86a91bd0c689d010225364355\cpr-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\cpr-subbuild\CMakeFiles\685776f0d5e48b908b519b81fd92a9ac\cpr-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\cpr-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\cpr-subbuild\CMakeFiles\cpr-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0CC59543-03A1-3EB8-BE8E-56E140177DA5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

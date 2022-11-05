@@ -1,0 +1,1326 @@
+The system is: Windows - 10.0.22000 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+生成启动时间为 2022/10/30 9:54:33。
+节点 1 上的项目“C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\3.23.4\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdC.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vscode\vsa\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\vscode\vsa\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\3.23.4\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\vscode\vsa\VC\Tools\MSVC\14.33.31629\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\3.23.4\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.75
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/3.23.4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+生成启动时间为 2022/10/30 9:54:34。
+节点 1 上的项目“C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\3.23.4\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdCXX.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vscode\vsa\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\vscode\vsa\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\3.23.4\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\vscode\vsa\VC\Tools\MSVC\14.33.31629\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\3.23.4\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.52
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/3.23.4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e41a7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CMakeCCompilerABI.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e41a7.dir\Debug\\" /Fd"cmTC_e41a7.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_e41a7.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_e41a7.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_15757.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CMakeCXXCompilerABI.cpp
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15757.dir\Debug\\" /Fd"cmTC_15757.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_15757.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_15757.exe
+
+
+
+Performing C++ SOURCE FILE Test THREAD_SANITIZER_AVAILABLE succeeded with the following compile output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_76b68.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.cxx
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D THREAD_SANITIZER_AVAILABLE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_76b68.dir\Debug\\" /Fd"cmTC_76b68.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -fsanitize=thread C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\src.cxx
+cl : 命令行  warning D9002: 忽略未知选项“-fsanitize=thread” [C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\cmTC_76b68.vcxproj]
+  cmTC_76b68.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_76b68.exe
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9505e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9505e.dir\Debug\\" /Fd"cmTC_9505e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  cmTC_9505e.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_9505e.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ac95d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ac95d.dir\Debug\\" /Fd"cmTC_ac95d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  cmTC_ac95d.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_ac95d.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e6805.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e6805.dir\Debug\\" /Fd"cmTC_e6805.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  cmTC_e6805.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_e6805.exe
+
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_47f3a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckFunctionExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strerror /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47f3a.dir\Debug\\" /Fd"cmTC_47f3a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+  cmTC_47f3a.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_47f3a.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_PTRDIFF_T succeeded with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c29b9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_PTRDIFF_T /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c29b9.dir\Debug\\" /Fd"cmTC_c29b9.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\src.c
+  cmTC_c29b9.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_c29b9.exe
+
+
+Source file was:
+#include <stddef.h>
+     int main() {
+         ptrdiff_t *a;
+         (void)a;
+         return 0;
+    }
+Performing C SOURCE FILE Test HAVE_SSE2_INTRIN succeeded with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4c065.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D ZLIB_DEBUG /D HAVE_SSE2_INTRIN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c065.dir\Debug\\" /Fd"cmTC_4c065.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\src.c
+  cmTC_4c065.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_4c065.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i zero = _mm_setzero_si128();
+            (void)zero;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSSE3_INTRIN succeeded with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3b848.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D ZLIB_DEBUG /D HAVE_SSSE3_INTRIN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b848.dir\Debug\\" /Fd"cmTC_3b848.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\src.c
+  cmTC_3b848.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_3b848.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i u, v, w;
+            u = _mm_set1_epi32(1);
+            v = _mm_set1_epi32(2);
+            w = _mm_hadd_epi32(u, v);
+            (void)w;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CRC_INTRIN succeeded with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_858d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D ZLIB_DEBUG /D HAVE_SSE42CRC_INTRIN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_858d1.dir\Debug\\" /Fd"cmTC_858d1.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\src.c
+  cmTC_858d1.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_858d1.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            unsigned crc = 0;
+            char c = 'c';
+        #if defined(_MSC_VER)
+            crc = _mm_crc32_u32(crc, c);
+        #else
+            crc = __builtin_ia32_crc32qi(crc, c);
+        #endif
+            (void)crc;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CMPSTR_INTRIN succeeded with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3a063.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D ZLIB_DEBUG /D HAVE_SSE42CMPSTR_INTRIN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a063.dir\Debug\\" /Fd"cmTC_3a063.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\src.c
+  cmTC_3a063.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_3a063.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            unsigned char a[64] = { 0 };
+            unsigned char b[64] = { 0 };
+            __m128i xmm_src0, xmm_src1;
+            xmm_src0 = _mm_loadu_si128((__m128i *)(char *)a);
+            xmm_src1 = _mm_loadu_si128((__m128i *)(char *)b);
+            return _mm_cmpestri(xmm_src0, 16, xmm_src1, 16, 0);
+        }
+Performing C SOURCE FILE Test HAVE_PCLMULQDQ_INTRIN succeeded with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d5d99.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D ZLIB_DEBUG /D HAVE_PCLMULQDQ_INTRIN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d5d99.dir\Debug\\" /Fd"cmTC_d5d99.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\src.c
+  cmTC_d5d99.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_d5d99.exe
+
+
+Source file was:
+#include <immintrin.h>
+            int main(void) {
+                __m128i a = _mm_setzero_si128();
+                __m128i b = _mm_setzero_si128();
+                __m128i c = _mm_clmulepi64_si128(a, b, 0x10);
+                (void)c;
+                return 0;
+            }
+Performing C SOURCE FILE Test HAVE_AVX2_INTRIN succeeded with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3b5f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D ZLIB_DEBUG /D HAVE_AVX2_INTRIN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b5f7.dir\Debug\\" /Fd"cmTC_3b5f7.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\src.c
+  cmTC_3b5f7.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_3b5f7.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m256i x = _mm256_set1_epi16(2);
+            const __m256i y = _mm256_set1_epi16(1);
+            x = _mm256_subs_epu16(x, y);
+            (void)x;
+            return 0;
+        }
+Determining if the function getch exists in the ws2_32; passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_30d3f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckFunctionExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30d3f.dir\Debug\\" /Fd"cmTC_30d3f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+  cmTC_30d3f.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_30d3f.exe
+
+
+
+Determining if the function getch exists in the winmm;ws2_32 passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_207e8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckFunctionExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_207e8.dir\Debug\\" /Fd"cmTC_207e8.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+  cmTC_207e8.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_207e8.exe
+
+
+
+Determining if files ;windows.h exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_83500.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_WINDOWS_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_83500.dir\Debug\\" /Fd"cmTC_83500.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c
+  cmTC_83500.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_83500.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_075c5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_WS2TCPIP_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_075c5.dir\Debug\\" /Fd"cmTC_075c5.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c
+  cmTC_075c5.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_075c5.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ac646.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  HAVE_WINSOCK2_H.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ac646.dir\Debug\\" /Fd"cmTC_ac646.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c
+  cmTC_ac646.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_ac646.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a0e9e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_WINCRYPT_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0e9e.dir\Debug\\" /Fd"cmTC_a0e9e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckIncludeFiles\HAVE_WINCRYPT_H.c
+  cmTC_a0e9e.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_a0e9e.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7b225.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  HAVE_STDIO_H.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b225.dir\Debug\\" /Fd"cmTC_7b225.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c
+  cmTC_7b225.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_7b225.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0e4be.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_ASSERT_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e4be.dir\Debug\\" /Fd"cmTC_0e4be.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c
+  cmTC_0e4be.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_0e4be.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_573ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_ERRNO_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_573ed.dir\Debug\\" /Fd"cmTC_573ed.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c
+  cmTC_573ed.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_573ed.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e82b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_LOCALE_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e82b4.dir\Debug\\" /Fd"cmTC_e82b4.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c
+  cmTC_e82b4.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_e82b4.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9023b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  HAVE_STDBOOL_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9023b.dir\Debug\\" /Fd"cmTC_9023b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c
+  cmTC_9023b.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_9023b.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3fb37.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  SIZEOF_SIZE_T.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3fb37.dir\Debug\\" /Fd"cmTC_3fb37.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c
+  cmTC_3fb37.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_3fb37.exe
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8e842.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  SIZEOF_LONG_LONG.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8e842.dir\Debug\\" /Fd"cmTC_8e842.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c
+  cmTC_8e842.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_8e842.exe
+
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6547f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  SIZEOF_LONG.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6547f.dir\Debug\\" /Fd"cmTC_6547f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c
+  cmTC_6547f.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_6547f.exe
+
+
+
+Determining size of short passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_45b62.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  SIZEOF_SHORT.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45b62.dir\Debug\\" /Fd"cmTC_45b62.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c
+  cmTC_45b62.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_45b62.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a1651.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  SIZEOF_INT.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1651.dir\Debug\\" /Fd"cmTC_a1651.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckTypeSize\SIZEOF_INT.c
+  cmTC_a1651.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_a1651.exe
+
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_35722.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  SIZEOF___INT64.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35722.dir\Debug\\" /Fd"cmTC_35722.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c
+  cmTC_35722.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_35722.exe
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6f919.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  SIZEOF_TIME_T.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f919.dir\Debug\\" /Fd"cmTC_6f919.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c
+  cmTC_6f919.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_6f919.exe
+
+
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_48658.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_48658.dir\Debug\\" /Fd"cmTC_48658.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_48658.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_48658.exe
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a1b06.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1b06.dir\Debug\\" /Fd"cmTC_a1b06.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_a1b06.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_a1b06.exe
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strtoi64 exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3eb2f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3eb2f.dir\Debug\\" /Fd"cmTC_3eb2f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_3eb2f.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_3eb2f.exe
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtoi64
+  return ((int*)(&_strtoi64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1951d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1951d.dir\Debug\\" /Fd"cmTC_1951d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_1951d.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_1951d.exe
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getprotobyname exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d7eee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7eee.dir\Debug\\" /Fd"cmTC_d7eee.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_d7eee.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_d7eee.exe
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobyname
+  return ((int*)(&getprotobyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpeername exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f6453.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6453.dir\Debug\\" /Fd"cmTC_f6453.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_f6453.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_f6453.exe
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpeername
+  return ((int*)(&getpeername))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getsockname exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6140e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6140e.dir\Debug\\" /Fd"cmTC_6140e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_6140e.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_6140e.exe
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getsockname
+  return ((int*)(&getsockname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setlocale exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_92b3a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_92b3a.dir\Debug\\" /Fd"cmTC_92b3a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_92b3a.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_92b3a.exe
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setmode exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2b369.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b369.dir\Debug\\" /Fd"cmTC_2b369.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_2b369.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_2b369.exe
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setsockopt exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4742f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4742f.dir\Debug\\" /Fd"cmTC_4742f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_4742f.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_4742f.exe
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_pton exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e6630.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e6630.dir\Debug\\" /Fd"cmTC_e6630.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_e6630.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_e6630.exe
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing Curl Test HAVE_IOCTLSOCKET passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2124c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2124c.dir\Debug\\" /Fd"cmTC_2124c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\curl-src\CMake\CurlTests.c"
+C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\curl-src\CMake\CurlTests.c(241): warning C4700: 使用了未初始化的局部变量“socket” [C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\cmTC_2124c.vcxproj]
+  cmTC_2124c.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_2124c.exe
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_991aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CurlTests.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_991aa.dir\Debug\\" /Fd"cmTC_991aa.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\curl-src\CMake\CurlTests.c"
+  cmTC_991aa.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_991aa.exe
+
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_45670.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CurlTests.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_BOOL_T /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45670.dir\Debug\\" /Fd"cmTC_45670.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\curl-src\CMake\CurlTests.c"
+  cmTC_45670.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_45670.exe
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_C99 passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3c3ca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_VARIADIC_MACROS_C99 /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3c3ca.dir\Debug\\" /Fd"cmTC_3c3ca.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\curl-src\CMake\CurlTests.c"
+  cmTC_3c3ca.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_3c3ca.exe
+
+
+Determining size of off_t passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b94e4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  SIZEOF_OFF_T.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b94e4.dir\Debug\\" /Fd"cmTC_b94e4.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c
+  cmTC_b94e4.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_b94e4.exe
+
+
+
+Determining size of curl_off_t passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1b2e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  SIZEOF_CURL_OFF_T.c
+  cl /c /I"C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\curl-src\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1b2e5.dir\Debug\\" /Fd"cmTC_1b2e5.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c
+  cmTC_1b2e5.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_1b2e5.exe
+
+
+
+Performing C SOURCE FILE Test curl_cv_recv succeeded with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6147d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /I"C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\curl-src\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D curl_cv_recv /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6147d.dir\Debug\\" /Fd"C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_6147d.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\src.c
+  cmTC_6147d.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_6147d.lib
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    recv(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_recv_test succeeded with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_19684.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /I"C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\curl-src\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D curl_cv_func_recv_test /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19684.dir\Debug\\" /Fd"C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_19684.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\src.c
+  cmTC_19684.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_19684.lib
+
+
+Source file was:
+
+    #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+    #ifdef WINSOCK_API_LINKAGE
+    WINSOCK_API_LINKAGE
+    #endif
+    extern int PASCAL
+    recv(SOCKET, char *, int, int);
+    int main(void) {
+      SOCKET s=0;
+      char * buf=0;
+      int len=0;
+      int flags=0;
+      int res = recv(s, buf, len, flags);
+      (void) res;
+      return 0;
+    }
+Performing C SOURCE FILE Test curl_cv_send succeeded with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8acc8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /I"C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\curl-src\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D curl_cv_send /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8acc8.dir\Debug\\" /Fd"C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_8acc8.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\src.c
+  cmTC_8acc8.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_8acc8.lib
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    send(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_send_test succeeded with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4deb7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  src.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /I"C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\curl-src\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D curl_cv_func_send_test /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4deb7.dir\Debug\\" /Fd"C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_4deb7.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\src.c
+  cmTC_4deb7.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_4deb7.lib
+
+
+Source file was:
+
+    #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+    #ifdef WINSOCK_API_LINKAGE
+    WINSOCK_API_LINKAGE
+    #endif
+    extern int PASCAL
+    send(SOCKET, const char *, int, int);
+    int main(void) {
+      SOCKET s=0;
+      const char * buf=0;
+      int len=0;
+      int flags=0;
+      int res = send(s, buf, len, flags);
+      (void) res;
+      return 0;
+    }
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_801b0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.c
+  cl /c /I"C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\curl-src\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D HAVE_STRUCT_TIMEVAL /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_801b0.dir\Debug\\" /Fd"C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_801b0.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\src.c
+  cmTC_801b0.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_801b0.lib
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+  struct timeval ts;
+  ts.tv_sec  = 0;
+  ts.tv_usec = 0;
+  (void)ts;
+  return 0;
+}
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_762ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /I"C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\curl-src\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_762ff.dir\Debug\\" /Fd"C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_762ff.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+  cmTC_762ff.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_762ff.lib
+
+
+
+Determining if the CryptAcquireContext exist passed with the following output:
+Change Dir: C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/vscode/vsa/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8d967.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /I"C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\curl-src\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d967.dir\Debug\\" /Fd"cmTC_8d967.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_8d967.vcxproj -> C:\Users\ALIENWARE\Desktop\bilive\vs\CMakeFiles\CMakeTmp\Debug\cmTC_8d967.exe
+
+
+File C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CryptAcquireContext
+  return ((int*)(&CryptAcquireContext))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

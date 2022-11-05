@@ -1,0 +1,14 @@
+# Target labels
+ curl-populate
+# Source files and their labels
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-subbuild/CMakeFiles/curl-populate
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-subbuild/CMakeFiles/2d630e031db2834a72600bc5ee8cd9e6/curl-populate.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-subbuild/CMakeFiles/bbb1e6a623714e26182867387312fa38/curl-populate-complete.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-subbuild/CMakeFiles/802482da5c6c16943c39467c58f5f40d/curl-populate-build.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-subbuild/CMakeFiles/802482da5c6c16943c39467c58f5f40d/curl-populate-configure.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-subbuild/CMakeFiles/802482da5c6c16943c39467c58f5f40d/curl-populate-download.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-subbuild/CMakeFiles/802482da5c6c16943c39467c58f5f40d/curl-populate-install.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-subbuild/CMakeFiles/802482da5c6c16943c39467c58f5f40d/curl-populate-mkdir.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-subbuild/CMakeFiles/802482da5c6c16943c39467c58f5f40d/curl-populate-patch.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-subbuild/CMakeFiles/802482da5c6c16943c39467c58f5f40d/curl-populate-test.rule
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-subbuild/CMakeFiles/802482da5c6c16943c39467c58f5f40d/curl-populate-update.rule

@@ -1,0 +1,14 @@
+# Target labels
+ cpr-populate
+# Source files and their labels
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/cpr-subbuild/CMakeFiles/cpr-populate
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/cpr-subbuild/CMakeFiles/685776f0d5e48b908b519b81fd92a9ac/cpr-populate.rule
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/cpr-subbuild/CMakeFiles/122715c86a91bd0c689d010225364355/cpr-populate-complete.rule
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/cpr-subbuild/CMakeFiles/4d654d091d71917e1f6db285cc1af63f/cpr-populate-build.rule
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/cpr-subbuild/CMakeFiles/4d654d091d71917e1f6db285cc1af63f/cpr-populate-configure.rule
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/cpr-subbuild/CMakeFiles/4d654d091d71917e1f6db285cc1af63f/cpr-populate-download.rule
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/cpr-subbuild/CMakeFiles/4d654d091d71917e1f6db285cc1af63f/cpr-populate-install.rule
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/cpr-subbuild/CMakeFiles/4d654d091d71917e1f6db285cc1af63f/cpr-populate-mkdir.rule
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/cpr-subbuild/CMakeFiles/4d654d091d71917e1f6db285cc1af63f/cpr-populate-patch.rule
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/cpr-subbuild/CMakeFiles/4d654d091d71917e1f6db285cc1af63f/cpr-populate-test.rule
+C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/cpr-subbuild/CMakeFiles/4d654d091d71917e1f6db285cc1af63f/cpr-populate-update.rule

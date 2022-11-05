@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\zlib-subbuild\CMakeFiles\ee8ea1b9f0a6d3868f34b8f5c726c349\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FFC70E7D-59FD-3F07-858D-798474E2D136}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

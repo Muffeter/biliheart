@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/curl-subbuild/CMakeFiles/curl-populate"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/curl-subbuild/CMakeFiles/f607cb4c3d5dbfd057a0d38a13ba44a4/curl-populate.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/curl-subbuild/CMakeFiles/45020f97aaf922b98c90ddf1055187bb/curl-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/curl-subbuild/CMakeFiles/a89b1a3e8596a2515c2c68909f499140/curl-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/curl-subbuild/CMakeFiles/a89b1a3e8596a2515c2c68909f499140/curl-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/curl-subbuild/CMakeFiles/a89b1a3e8596a2515c2c68909f499140/curl-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/curl-subbuild/CMakeFiles/a89b1a3e8596a2515c2c68909f499140/curl-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/curl-subbuild/CMakeFiles/a89b1a3e8596a2515c2c68909f499140/curl-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/curl-subbuild/CMakeFiles/a89b1a3e8596a2515c2c68909f499140/curl-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/curl-subbuild/CMakeFiles/a89b1a3e8596a2515c2c68909f499140/curl-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/curl-subbuild/CMakeFiles/a89b1a3e8596a2515c2c68909f499140/curl-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"curl-populate"
+		],
+		"name" : "curl-populate"
+	}
+}

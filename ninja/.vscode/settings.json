@@ -1,0 +1,12 @@
+{
+    "cmake.sourceDirectory": "c:\\Users\\ALIENWARE\\Desktop\\bilive",
+    "files.associations": {
+        "\"*.java\"": "\"java\"",
+        "\"*.jar\"": "\"java\"",
+        ".cpp": "\"c++\"",
+        "thread": "cpp",
+        "iostream": "cpp",
+        "string": "cpp",
+        "chrono": "cpp"
+    }
+}

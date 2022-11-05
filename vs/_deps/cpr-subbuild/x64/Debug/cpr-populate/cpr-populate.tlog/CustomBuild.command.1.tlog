@@ -1,0 +1,150 @@
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\_DEPS\CPR-SUBBUILD\CMAKEFILES\89EBABFD5DAF7E32AEEAB2494D00D229\CPR-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild/cpr-populate-prefix/tmp/cpr-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/Debug/cpr-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\_DEPS\CPR-SUBBUILD\CMAKEFILES\89EBABFD5DAF7E32AEEAB2494D00D229\CPR-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\vs\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild/cpr-populate-prefix/tmp/cpr-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/Debug/cpr-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\_DEPS\CPR-SUBBUILD\CMAKEFILES\89EBABFD5DAF7E32AEEAB2494D00D229\CPR-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\cpr-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild/cpr-populate-prefix/tmp/cpr-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\_DEPS\CPR-SUBBUILD\CMAKEFILES\89EBABFD5DAF7E32AEEAB2494D00D229\CPR-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/Debug/cpr-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\_DEPS\CPR-SUBBUILD\CMAKEFILES\89EBABFD5DAF7E32AEEAB2494D00D229\CPR-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\cpr-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/Debug/cpr-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\_DEPS\CPR-SUBBUILD\CMAKEFILES\89EBABFD5DAF7E32AEEAB2494D00D229\CPR-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\cpr-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/Debug/cpr-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\_DEPS\CPR-SUBBUILD\CMAKEFILES\89EBABFD5DAF7E32AEEAB2494D00D229\CPR-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\cpr-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/Debug/cpr-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\_DEPS\CPR-SUBBUILD\CMAKEFILES\89EBABFD5DAF7E32AEEAB2494D00D229\CPR-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\vs\_deps\cpr-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/Debug/cpr-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\_DEPS\CPR-SUBBUILD\CMAKEFILES\851F51A9DCE9DD131E99355475A35527\CPR-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild/CMakeFiles/Debug/cpr-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/Debug/cpr-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\_DEPS\CPR-SUBBUILD\CMAKEFILES\F2ECE270A2DC08719FF107A0EE7801AF\CPR-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\_DEPS\CPR-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild -BC:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild --check-stamp-file C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/cpr-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/FeatureSummary.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/Internal/CheckSourceRuns.cmake
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-build/zconf.h.cmakein
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-src/CMakeLists.txt
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-src/cmake/detect-arch.cmake
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-src/cmake/detect-coverage.cmake
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-src/cmake/detect-install-dirs.cmake
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-src/cmake/detect-sanitizer.cmake
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/zlib-src/zlib.pc.cmakein

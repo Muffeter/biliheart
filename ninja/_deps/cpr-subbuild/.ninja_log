@@ -1,0 +1,21 @@
+# ninja log v5
+2	36	6887967228098525	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir	8032183568897c47
+2	36	6887967228098525	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir	8032183568897c47
+36	3560	6887967263344247	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download	c4e3f60faab5f771
+36	3560	6887967263344247	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download	c4e3f60faab5f771
+3560	3639	0	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update	1e15373149cfbb45
+3560	3639	0	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update	1e15373149cfbb45
+3639	3670	6887967264448144	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch	739d6b4eb0b3fa0e
+3639	3670	6887967264448144	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch	739d6b4eb0b3fa0e
+3670	3701	6887967264748196	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure	f407478bba1cd5dc
+3670	3701	6887967264748196	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure	f407478bba1cd5dc
+3701	3731	6887967265058009	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build	293a4b7ba36685f0
+3701	3731	6887967265058009	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build	293a4b7ba36685f0
+3731	3761	6887967265349174	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install	7e7f2f927f4f281a
+3731	3761	6887967265349174	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install	7e7f2f927f4f281a
+3761	3793	6887967265669843	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test	16bc7e0598f25088
+3761	3793	6887967265669843	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test	16bc7e0598f25088
+3793	3840	6887967266142483	CMakeFiles/cpr-populate-complete	f4cfa8684289c95e
+3793	3840	6887967266142483	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-done	f4cfa8684289c95e
+3793	3840	6887967266142483	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/cpr-subbuild/CMakeFiles/cpr-populate-complete	f4cfa8684289c95e
+3793	3840	6887967266142483	C:/Users/ALIENWARE/Desktop/bilive/build/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-done	f4cfa8684289c95e

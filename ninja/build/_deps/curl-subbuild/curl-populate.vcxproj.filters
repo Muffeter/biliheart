@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-subbuild\CMakeFiles\a89b1a3e8596a2515c2c68909f499140\curl-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-subbuild\CMakeFiles\a89b1a3e8596a2515c2c68909f499140\curl-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-subbuild\CMakeFiles\a89b1a3e8596a2515c2c68909f499140\curl-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-subbuild\CMakeFiles\a89b1a3e8596a2515c2c68909f499140\curl-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-subbuild\CMakeFiles\a89b1a3e8596a2515c2c68909f499140\curl-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-subbuild\CMakeFiles\a89b1a3e8596a2515c2c68909f499140\curl-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-subbuild\CMakeFiles\a89b1a3e8596a2515c2c68909f499140\curl-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-subbuild\CMakeFiles\a89b1a3e8596a2515c2c68909f499140\curl-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-subbuild\CMakeFiles\45020f97aaf922b98c90ddf1055187bb\curl-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-subbuild\CMakeFiles\f607cb4c3d5dbfd057a0d38a13ba44a4\curl-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ALIENWARE\Desktop\bilive\ninja\build\_deps\curl-subbuild\CMakeFiles\curl-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{45E07CAD-2671-3732-A148-D75E22C05F0A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

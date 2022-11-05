@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/0469a75b50080a86759412d7dda19e2d/zlib-populate.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/08b023de6754fcb329854a78a5ce7ff7/zlib-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/ae9e6a084ad7008dc50424159d4e1e08/zlib-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/ae9e6a084ad7008dc50424159d4e1e08/zlib-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/ae9e6a084ad7008dc50424159d4e1e08/zlib-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/ae9e6a084ad7008dc50424159d4e1e08/zlib-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/ae9e6a084ad7008dc50424159d4e1e08/zlib-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/ae9e6a084ad7008dc50424159d4e1e08/zlib-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/ae9e6a084ad7008dc50424159d4e1e08/zlib-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/ninja/build/_deps/zlib-subbuild/CMakeFiles/ae9e6a084ad7008dc50424159d4e1e08/zlib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"zlib-populate"
+		],
+		"name" : "zlib-populate"
+	}
+}

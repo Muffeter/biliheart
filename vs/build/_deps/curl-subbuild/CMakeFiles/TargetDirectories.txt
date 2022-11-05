@@ -1,0 +1,3 @@
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/CMakeFiles/curl-populate.dir
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/CMakeFiles/ZERO_CHECK.dir

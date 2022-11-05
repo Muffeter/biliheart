@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ThreadSan|win32">
+      <Configuration>ThreadSan</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="AddrSan|win32">
+      <Configuration>AddrSan</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="AllSan|win32">
+      <Configuration>AllSan</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{958A7F71-3AD1-335E-8076-D868CC25183C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ThreadSan|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='AddrSan|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='AllSan|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='ThreadSan|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='AddrSan|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='AllSan|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ThreadSan|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='AddrSan|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='AllSan|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive -BC:/Users/ALIENWARE/Desktop/bilive/vs/build --check-stamp-file C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceRuns.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\clear_variable.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\code_coverage.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\cprver.h.in;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\sanitizer.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\zlib_external.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive -BC:/Users/ALIENWARE/Desktop/bilive/vs/build --check-stamp-file C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceRuns.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\clear_variable.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\code_coverage.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\cprver.h.in;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\sanitizer.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\zlib_external.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive -BC:/Users/ALIENWARE/Desktop/bilive/vs/build --check-stamp-file C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceRuns.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\clear_variable.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\code_coverage.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\cprver.h.in;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\sanitizer.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\zlib_external.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive -BC:/Users/ALIENWARE/Desktop/bilive/vs/build --check-stamp-file C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceRuns.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\clear_variable.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\code_coverage.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\cprver.h.in;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\sanitizer.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\zlib_external.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='ThreadSan|win32'">Building Custom Rule C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='ThreadSan|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive -BC:/Users/ALIENWARE/Desktop/bilive/vs/build --check-stamp-file C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='ThreadSan|win32'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceRuns.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\clear_variable.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\code_coverage.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\cprver.h.in;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\sanitizer.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\zlib_external.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='ThreadSan|win32'">C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='ThreadSan|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='AddrSan|win32'">Building Custom Rule C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='AddrSan|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive -BC:/Users/ALIENWARE/Desktop/bilive/vs/build --check-stamp-file C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='AddrSan|win32'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceRuns.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\clear_variable.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\code_coverage.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\cprver.h.in;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\sanitizer.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\zlib_external.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='AddrSan|win32'">C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='AddrSan|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='AllSan|win32'">Building Custom Rule C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='AllSan|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive -BC:/Users/ALIENWARE/Desktop/bilive/vs/build --check-stamp-file C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='AllSan|win32'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceRuns.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\clear_variable.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\code_coverage.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\cprver.h.in;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\sanitizer.cmake;C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-src\cmake\zlib_external.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='AllSan|win32'">C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='AllSan|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\ZERO_CHECK.vcxproj">
+      <Project>{D47F959B-0DFF-32BA-96DD-3921F1EAC1F7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\cpr-build\cpr\cpr.vcxproj">
+      <Project>{6D9BBD4C-EC13-33FA-9B3D-9162DD8BBAA4}</Project>
+      <Name>cpr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\curl-build\lib\libcurl.vcxproj">
+      <Project>{D9209823-DCD5-37DB-B39C-05CF9B7E23EA}</Project>
+      <Name>libcurl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\zlib-build\zlib.vcxproj">
+      <Project>{8958C0DB-C80E-35AD-AA84-EB285571032B}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

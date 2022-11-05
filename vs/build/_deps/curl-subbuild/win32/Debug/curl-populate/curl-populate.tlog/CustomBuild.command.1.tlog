@@ -1,0 +1,152 @@
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\7C7DE5E2DBF27112C4FD3F34D7F9BD24\CURL-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/curl-populate-prefix/tmp/curl-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\7C7DE5E2DBF27112C4FD3F34D7F9BD24\CURL-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/download-curl-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/verify-curl-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/extract-curl-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\7C7DE5E2DBF27112C4FD3F34D7F9BD24\CURL-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\7C7DE5E2DBF27112C4FD3F34D7F9BD24\CURL-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\7C7DE5E2DBF27112C4FD3F34D7F9BD24\CURL-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\curl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\7C7DE5E2DBF27112C4FD3F34D7F9BD24\CURL-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\curl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\7C7DE5E2DBF27112C4FD3F34D7F9BD24\CURL-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\curl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\7C7DE5E2DBF27112C4FD3F34D7F9BD24\CURL-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\curl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\5A16F39DA13C0347CEF3035F9A00F6B7\CURL-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/CMakeFiles/Debug/curl-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\7202406C46E04FEB9E08456B5E148364\CURL-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALIENWARE\DESKTOP\BILIVE\VS\BUILD\_DEPS\CURL-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild -BC:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild --check-stamp-file C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/curl-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

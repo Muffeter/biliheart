@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-subbuild/CMakeFiles/cpr-populate"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-subbuild/CMakeFiles/cd1b95dbcb8d6ee3d1fb89ae12164eae/cpr-populate.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-subbuild/CMakeFiles/86e0dee6916d1675a597e659f06be9ca/cpr-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-subbuild/CMakeFiles/549d583eb4dcd3a3b29771c52102abdc/cpr-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-subbuild/CMakeFiles/549d583eb4dcd3a3b29771c52102abdc/cpr-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-subbuild/CMakeFiles/549d583eb4dcd3a3b29771c52102abdc/cpr-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-subbuild/CMakeFiles/549d583eb4dcd3a3b29771c52102abdc/cpr-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-subbuild/CMakeFiles/549d583eb4dcd3a3b29771c52102abdc/cpr-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-subbuild/CMakeFiles/549d583eb4dcd3a3b29771c52102abdc/cpr-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-subbuild/CMakeFiles/549d583eb4dcd3a3b29771c52102abdc/cpr-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/ALIENWARE/Desktop/bilive/vs/build/_deps/cpr-subbuild/CMakeFiles/549d583eb4dcd3a3b29771c52102abdc/cpr-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpr-populate"
+		],
+		"name" : "cpr-populate"
+	}
+}

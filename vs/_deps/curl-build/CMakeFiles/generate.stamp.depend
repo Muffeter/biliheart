@@ -1,0 +1,82 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.23/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeConfigurableFile.in
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckTypeSize.c.in
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/FindCygwin.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/FindMsys.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/FindPerl.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_ARPA_TFTP_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_ASSERT_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_ERRNO_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_IDN2_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_IFADDRS_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_KRB_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_LIBGEN_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_NETINET_TCP_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_PEM_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_POLL_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_SSL_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_STDBOOL_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_STDIO_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_STROPTS_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_SYS_FILIO_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_SYS_IOCTL_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_SYS_RESOURCE_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UIO_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UN_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTSNAME_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_SYS_XATTR_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_WINCRYPT_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK2_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckIncludeFiles/HAVE_WS2TCPIP_H.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckTypeSize/SIZEOF_ADDRESS_FAMILY.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckTypeSize/SIZEOF_CURL_OFF_T.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckTypeSize/SIZEOF_SA_FAMILY_T.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckTypeSize/SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckTypeSize/SIZEOF_TIME_T.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-src/CMake/CurlSymbolHiding.cmake
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-src/CMake/CurlTests.c
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-src/CMake/FindLibSSH2.cmake
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-src/CMake/Macros.cmake
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-src/CMake/OtherTests.cmake
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-src/CMake/Platforms/WindowsCache.cmake
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-src/CMake/Utilities.cmake
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-src/CMake/cmake_uninstall.cmake.in
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-src/CMake/curl-config.cmake.in
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-src/CMakeLists.txt
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-src/curl-config.in
+C:/Users/ALIENWARE/Desktop/bilive/vs/_deps/curl-src/libcurl.pc.in

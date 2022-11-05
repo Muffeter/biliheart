@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\zlib-subbuild\CMakeFiles\dd6175dbe207d8305d649fc378dba345\zlib-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\zlib-subbuild\CMakeFiles\dd6175dbe207d8305d649fc378dba345\zlib-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\zlib-subbuild\CMakeFiles\dd6175dbe207d8305d649fc378dba345\zlib-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\zlib-subbuild\CMakeFiles\dd6175dbe207d8305d649fc378dba345\zlib-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\zlib-subbuild\CMakeFiles\dd6175dbe207d8305d649fc378dba345\zlib-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\zlib-subbuild\CMakeFiles\dd6175dbe207d8305d649fc378dba345\zlib-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\zlib-subbuild\CMakeFiles\dd6175dbe207d8305d649fc378dba345\zlib-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\zlib-subbuild\CMakeFiles\dd6175dbe207d8305d649fc378dba345\zlib-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\zlib-subbuild\CMakeFiles\8e7d3231017369769193f0cee50ec6fb\zlib-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\zlib-subbuild\CMakeFiles\ee8ea1b9f0a6d3868f34b8f5c726c349\zlib-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\zlib-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ALIENWARE\Desktop\bilive\vs\build\_deps\zlib-subbuild\CMakeFiles\zlib-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FFC70E7D-59FD-3F07-858D-798474E2D136}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
